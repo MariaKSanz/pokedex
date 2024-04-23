@@ -7,14 +7,12 @@ function PokemonCard({pokemon}) {
       <figcaption>{pokemon.name}</figcaption>
     </figure>
   )
-
-
 }
 
 PokemonCard.propTypes = {
   pokemon: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    image: PropTypes.string
+    imgSrc: PropTypes.string
   })
 }
 export default PokemonCard;
