@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <NavBar index={pokemonIndex} setIndex={setPokemonIndex} list={pokemonList}/>
+      <NavBar setIndex={setPokemonIndex} list={pokemonList}/>
       <PokemonCard pokemon={pokemonList[pokemonIndex]}/>
     </div>
   )
