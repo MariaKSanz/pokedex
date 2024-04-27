@@ -4,7 +4,12 @@ export const NavBar = ({setIndex, list}) => {
 
   const handleClick = (index) => {
     setIndex(index)
+    if (index === 3) {
+      alert("pika pikachu!!!")
+    }
   }
+
+
 
   return (
     <div>

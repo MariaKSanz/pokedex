@@ -1,10 +1,17 @@
 import './App.css'
 import PokemonCard from "./components/PokemonCard.jsx";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {NavBar} from "./components/NavBar.jsx";
 
 function App() {
   const [pokemonIndex, setPokemonIndex] = useState(0);
+
+  useEffect(
+    () => {
+      alert("hello pokemon trainer :)");
+    },
+    []
+  );
 
   return (
     <div id="main">
