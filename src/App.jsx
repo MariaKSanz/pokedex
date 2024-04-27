@@ -7,7 +7,7 @@ function App() {
   const [pokemonIndex, setPokemonIndex] = useState(0);
 
   return (
-    <div>
+    <div id="main">
       <NavBar setIndex={setPokemonIndex} list={pokemonList}/>
       <PokemonCard pokemon={pokemonList[pokemonIndex]}/>
     </div>
